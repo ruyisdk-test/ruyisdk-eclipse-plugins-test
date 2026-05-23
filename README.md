@@ -1,6 +1,6 @@
 # 针对RuyiSDK Eclipse插件的测试
 
-测试版本为 [v0.1.3](https://github.com/ruyisdk/ruyisdk-eclipse-plugins/releases/tag/v0.1.3)
+测试版本为 [v0.1.4](https://github.com/ruyisdk/ruyisdk-eclipse-plugins/releases/tag/v0.1.4)
 
 ## 测试说明
 
@@ -19,10 +19,8 @@
 
 ## 测试结果
 
-共 17 个测试用例，成功 13 个，失败 4 个。
+共 17 个测试用例，成功 13 个，失败 2 个。
 | 测试用例 | 结果 | 备注 | issues |
 | :------------------------: | :----: | :----------------------------------------------------------------------------------------------------------: | :---: |
-| 包管理器/开发板选择框排序 | 失败 | 开发板选择框variants字节顺序排序意义不明 | [#83](https://github.com/ruyisdk/ruyisdk-eclipse-plugins/issues/83) |
 | 包管理器/安装包 | 失败 | 包在下载完成前还是关闭，并重新打开，导致下载失败 | [#82](https://github.com/ruyisdk/ruyisdk-eclipse-plugins/issues/82) |
 | 新闻/切换仅未读 | 失败 | 在白色主题下，Unread Only 勾选不明显 | [#98](https://github.com/ruyisdk/ruyisdk-eclipse-plugins/issues/98) |
-| 虚拟环境/创建虚拟环境并应用到项目 | 失败 | 创建虚拟环境时选择的路径若不在项目目录下则无法使用 | [#84](https://github.com/ruyisdk/ruyisdk-eclipse-plugins/issues/84) |
